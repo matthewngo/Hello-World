@@ -24,7 +24,7 @@ public class Thing {
         this.value = value;
     }
 
-    private void noFunctionality() {
+    public void noFunctionality() {
         boolean condition = false;
         while (condition) {
             System.out.println("This will never get executed.");
