@@ -3,7 +3,7 @@ public class Thing {
     private Integer value;
 
     public Thing() {
-        int x = 10; // code smell
+        int x = 10; // issue
         this.name = null;
         this.value = null;
     }
@@ -25,7 +25,7 @@ public class Thing {
     }
 
     public void noFunctionality() {
-        // TODO: fix this method
+        // TODO: fix this method, edited this line twice
         boolean condition = false;
         while (condition) {
             System.out.println("This will never get executed.");
