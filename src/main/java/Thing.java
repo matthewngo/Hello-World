@@ -3,6 +3,7 @@ public class Thing {
     private Integer value;
 
     public Thing() {
+        int x = 10; // code smell
         this.name = null;
         this.value = null;
     }
