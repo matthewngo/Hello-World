@@ -25,6 +25,7 @@ public class Thing {
     }
 
     public void noFunctionality() {
+        // TODO: fix this method
         boolean condition = false;
         while (condition) {
             System.out.println("This will never get executed.");
