@@ -23,4 +23,11 @@ public class Thing {
     public void setValue(Integer value) {
         this.value = value;
     }
+
+    private void noFunctionality() {
+        boolean condition = false;
+        while (condition) {
+            System.out.println("This will never get executed.");
+        }
+    }
 }
