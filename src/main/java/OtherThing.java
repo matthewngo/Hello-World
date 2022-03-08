@@ -29,4 +29,12 @@ public class OtherThing {
             System.out.println("This will never get executed.");
         }
     }
+
+
+    public void doSomething() {
+        boolean condition = false;
+        while (condition) {
+            System.out.println("This will never get executed.");
+        }
+    }
 }
